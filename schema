@@ -1,0 +1,18 @@
+> HTML Files    
+    - index.html
+    - register.html
+    - login.html
+    - prediction.html
+    - logout.html
+
+> Backend Stack
+    - Flask
+    - Cloudant.iam
+    - IBM Watson
+    - IBM Cloud
+
+> Requirement
+    - Python 3.6
+    - Flask
+    - Tensorflow
+    - IBM Cloud
