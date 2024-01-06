@@ -16,7 +16,7 @@ from cloudant.client import Cloudant
 
 model = load_model(r"IBMDR.h5")
 app = Flask(__name__)
-client = Cloudant.iam('username', 'apikey', connect=True)
+client = Cloudant.iam('4c6ccfaa-30e7-4fc6-a2fd-ed34bce0f3b7-bluemix', '2nLEMJXpFx6zL2kst9dMKWWOkWA0CTi2CUDbjD0cIZUY', connect=True)
 my_database = client.create_database ('my_database')
 
 @app. route('/')
